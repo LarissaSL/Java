@@ -1,0 +1,45 @@
+Criar Scanner e Instancia da Conta ( Conta conta )
+
+Pedir numero da Conta
+Pedir nome 
+Perguntar se tem deposito inicial
+
+se sim:
+	Pedir valor do Deposito Inicial
+	Usar Construtor de 3 argumentos
+se não:
+	Usar Construtor de 2 argumentos
+	Registrar com 0;
+
+Mostrar
+Conta XXXX, Titular: Nome, Quantia: R$
+
+Entrar com valor de deposito
+
+Mostrar:
+Atualizando Conta...
+Mostrar Conta XXXX, Titular: Nome, Quantia: R$
+
+Entrar com valor de Saque:
+	valorDaConta - valorDeSaque - 5(taxa)
+
+Mostrar:
+Atualizando Conta...
+Mostrar Conta ****, Proprietario: Nome, Quantia: R$
+
+
+Entidade Conta
+Classe Conta
+	private nome
+	private numero
+	private saldo
+
+Usar Construtor pra Pedir os 3 e o Construtor pedir 2(sobrecarga)
+
+Set nome e numero
+Get nos 3 (nome, numero e saldo)
+
+OBS.:Saldo vai ser modificado de acordo com deposito e saque então sem Set
+
+Mostrar o String toString ()
+	Conta XXXX, Titular: Nome, Quantia: R$
